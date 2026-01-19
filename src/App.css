@@ -17,6 +17,10 @@
   margin: 0;
 }
 
+.title span {
+  color:  #0d9488;
+}
+
 .main-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

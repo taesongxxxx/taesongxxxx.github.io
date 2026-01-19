@@ -8,9 +8,8 @@ function App() {
     <div className="portfolio-container">
       <header className="title">
         <h4>Profile</h4>
-        <h1>최태성</h1>
+        <h1>안녕하세요,<br/>프론트엔드 개발자 <span>최태성</span> 입니다.</h1>
       </header>
-
       <div className="main-container">
         <ProfileSection />
         <ResumeSection />
