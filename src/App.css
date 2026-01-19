@@ -1,0 +1,134 @@
+/* 공통 섹션 */
+.title {
+  margin-bottom: 80px;
+}
+
+.title h4 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #999;
+  margin: 0 0 10px 0;
+  letter-spacing: 0.05em;
+}
+
+.title h1 {
+  font-size: 42px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 60px; 
+  width: 100%;
+  align-items: start;
+}
+
+.profile-container, 
+.resume-container, 
+.project-container {
+  width: 100%;
+}
+
+dl {
+  margin: 0;
+}
+
+.profile-info > div,
+.resume-container > div {
+  display: flex;
+  margin-bottom: 24px;
+  font-size: 14px;
+}
+
+dt {
+  width: 120px; 
+  color: #666;
+  font-weight: 500;
+  flex-shrink: 0; 
+  text-transform: uppercase; 
+}
+
+dd {
+  margin: 0;
+  color: #111;
+  flex-grow: 1;
+  min-width: 0;
+}
+
+/* Resume 섹션 */
+.skills span {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+  width: 100%;
+}
+
+.skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.skills li {
+  background: #f4f4f4;
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  transition: all 0.2s ease;
+}
+
+.skills li:hover {
+  background-color: #e0e0e0;
+  cursor: pointer;
+  transform: translateY(-2px);
+}
+
+/* 프로젝트 섹션 */
+.project-container .project dt {
+  width: auto;
+  margin-bottom: 20px;
+  font-size: 14px;
+  display: block;
+}
+
+.project-container li {
+  margin-bottom: 35px;
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 8px;
+}
+
+.project-title {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.project-date {
+  font-size: 13px;
+  color: #ddd; 
+}
+
+.project-description {
+  font-size: 13px;
+  color: #777;
+  margin: 0;
+  word-break: keep-all;
+}
+
+@media (max-width: 1024px) {
+  .main-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  body {
+    padding: 40px 20px;
+  }
+}
