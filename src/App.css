@@ -21,6 +21,7 @@
   justify-content: center;
   overflow: hidden;
   border: 1px solid #eee;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 }
 
 .profile-circle img {
