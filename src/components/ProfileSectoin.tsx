@@ -23,8 +23,7 @@ const ProfileSection = () => {
           <dt>Active</dt>
           <dd>
             <ul>
-              <li>~~</li>
-              <li>코딩테스트 스터디</li>
+              <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus amet illo maxime perspiciatis incidunt vel nulla esse dignissimos repellat cumque explicabo quae omnis voluptas, veritatis beatae atque ut nam tenetur!</li>
             </ul>
           </dd>
         </div>
