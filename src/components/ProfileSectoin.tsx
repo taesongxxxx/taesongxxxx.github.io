@@ -29,7 +29,13 @@ const ProfileSection = () => {
         </div>
         <div className="contact">
           <dt>contact</dt>
-          <dd>taeseongxxxx@gmail.com</dd>
+          <dd>
+            <ul>
+              <li>taeseongxxxx@gmail.com</li>
+              <li><a href="https://github.com/taesongxxxx">github</a></li>
+              <li><a href="https://velog.io/@taesong/posts">velog</a></li>
+            </ul>
+            </dd>
         </div>
       </dl>
     </div>
