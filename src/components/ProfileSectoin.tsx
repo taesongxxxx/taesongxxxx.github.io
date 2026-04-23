@@ -30,12 +30,40 @@ const ProfileSection = () => {
         <div className="contact">
           <dt>contact</dt>
           <dd>
-            <ul>
-              <li>taeseongxxxx@gmail.com</li>
-              <li><a href="https://github.com/taesongxxxx">github</a></li>
-              <li><a href="https://velog.io/@taesong/posts">velog</a></li>
+            <ul className="contact-list">
+              <li className="contact-email">taeseongxxxx@gmail.com</li>
+              <li className="contact-links">
+                <a
+                  href="https://github.com/taesongxxxx"
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="GitHub"
+                  className="contact-icon-link"
+                >
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                      fill="currentColor"
+                      d="M12 2C6.48 2 2 6.58 2 12.22c0 4.5 2.87 8.32 6.84 9.67.5.1.68-.22.68-.49 0-.24-.01-1.04-.01-1.88-2.78.62-3.37-1.21-3.37-1.21-.46-1.2-1.11-1.52-1.11-1.52-.91-.64.07-.63.07-.63 1 .07 1.53 1.06 1.53 1.06.9 1.57 2.36 1.12 2.94.86.09-.67.35-1.12.63-1.37-2.22-.26-4.55-1.14-4.55-5.09 0-1.13.39-2.05 1.03-2.77-.1-.26-.45-1.31.1-2.74 0 0 .84-.28 2.75 1.06A9.3 9.3 0 0 1 12 6.84c.85 0 1.71.12 2.52.36 1.91-1.34 2.75-1.06 2.75-1.06.55 1.43.2 2.48.1 2.74.64.72 1.03 1.64 1.03 2.77 0 3.96-2.33 4.82-4.56 5.08.36.32.68.95.68 1.92 0 1.39-.01 2.5-.01 2.84 0 .27.18.59.69.49A10.25 10.25 0 0 0 22 12.22C22 6.58 17.52 2 12 2Z"
+                    />
+                  </svg>
+                </a>
+                <a
+                  href="https://velog.io/@taesong/posts"
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="Velog"
+                  className="contact-icon-link"
+                >
+                  <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path
+                      fill="currentColor"
+                      d="M5 4.5h5.13l1.88 11.27L13.93 4.5H19l-4.3 15H9.3L5 4.5Z"
+                    />
+                  </svg>
+                </a>
+              </li>
             </ul>
-            </dd>
+          </dd>
         </div>
       </dl>
     </div>

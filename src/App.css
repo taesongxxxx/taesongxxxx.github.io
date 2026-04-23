@@ -90,7 +90,54 @@ dd {
   min-width: 0;
 }
 
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-links {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact-icon-link {
+  width: 36px;
+  height: 36px;
+  border: 1px solid #e5e7eb;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+  text-decoration: none;
+  background-color: #fff;
+  transition: transform 0.2s ease, border-color 0.2s ease,
+    background-color 0.2s ease, color 0.2s ease;
+}
+
+.contact-icon-link:hover {
+  transform: translateY(-2px);
+  border-color: #0d9488;
+  background-color: #f0fdfa;
+  color: #0d9488;
+}
+
+.contact-icon-link svg {
+  width: 18px;
+  height: 18px;
+}
+
 /* Resume 섹션 */
+.skill-category {
+  margin-bottom: 16px;
+}
+
+.skill-category:last-child {
+  margin-bottom: 0;
+}
+
 .skills span {
   display: block;
   font-weight: bold;
@@ -103,7 +150,7 @@ dd {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  margin-bottom: 20px;
+  margin-bottom: 0;
 }
 
 .skills li {

@@ -5,11 +5,24 @@ const ResumeSection = () => {
     "SQL 개발자 (SQLD)",
   ];
 
-  const skills = {
-    frontEnd: ["HTML", "CSS", "JavaScript", "TypeScript", "React.js"],
-    backEnd: ["Node.js"],
-    tools: ["Git", "Docker", "AWS"],
-  };
+  const skillCategories = [
+    {
+      title: "Languages",
+      items: ["JavaScript", "TypeScript"],
+    },
+    {
+      title: "Frontend",
+      items: ["HTML", "CSS", "React.js"],
+    },
+    {
+      title: "Backend",
+      items: ["Node.js", "Express.js", "PostgreSQL"],
+    },
+    {
+      title: "Tools",
+      items: ["Git", "Notion", "Docker"],
+    },
+  ];
 
   return (
     <dl className="resume-container">
@@ -32,30 +45,16 @@ const ResumeSection = () => {
       <div className="skills">
         <dt>SKILLS</dt>
         <dd>
-          <div className="skill-category">
-            <span>FrontEnd</span>
-            <ul>
-              {skills.frontEnd.map((skill) => (
-                <li key={skill}>{skill}</li>
-              ))}
-            </ul>
-          </div>
-          <div className="skill-category">
-          <ul>
-            <span>BackEnd</span>
-            {skills.backEnd.map((skill) => (
-              <li key={skill}>{skill}</li>
-            ))}
-          </ul>
-          </div>
-          <div className="skill-category">
-          <ul>
-            <span>Tools</span>
-            {skills.tools.map((tool) => (
-              <li key={tool}>{tool}</li>
-            ))}
-          </ul>
-          </div>
+          {skillCategories.map((category) => (
+            <div className="skill-category" key={category.title}>
+              <span>{category.title}</span>
+              <ul>
+                {category.items.map((item) => (
+                  <li key={item}>{item}</li>
+                ))}
+              </ul>
+            </div>
+          ))}
         </dd>
       </div>
     </dl>
