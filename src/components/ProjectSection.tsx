@@ -32,6 +32,36 @@ const ProjectSection = () => {
 
   const projects: Project[] = [
     {
+      title: "Toamdo Backend",
+      period: "2025.09 - 2025.10",
+      summary:
+        "팀 프로젝트 Toamdo의 백엔드 서버를 개발하며 인증, 데이터 관리, API 설계와 데이터베이스 연동을 담당한 프로젝트입니다.",
+      techStack: [
+        "Java",
+        "Spring Boot",
+        "Spring Security",
+        "JPA",
+        "MySQL",
+        "JWT",
+      ],
+      features: [
+        "JWT 기반 로그인 및 사용자 인증/인가 기능 구현",
+        "게시글, 댓글 등 핵심 도메인 API 설계 및 개발",
+        "공통 응답 형식과 예외 처리 로직을 정리해 일관된 API 제공",
+        "JPA 기반 데이터 연동과 CRUD 기능 구현",
+      ],
+      role: [
+        "백엔드 API 설계 및 구현",
+        "데이터베이스 테이블 구조 설계",
+        "Spring Security와 JWT를 활용한 인증 시스템 구축",
+        "프론트엔드와의 연동 테스트 및 오류 수정",
+      ],
+      learned: [
+        "기능 구현뿐 아니라 일관된 API 구조와 예외 처리가 서비스 완성도에 큰 영향을 준다는 점을 배웠습니다.",
+        "팀 프로젝트에서는 프론트엔드와의 명세 공유와 협업 방식이 개발 속도와 품질에 직결된다는 점을 경험했습니다.",
+      ],
+    },
+    {
       title: "프로그래머스 프로젝트",
       period: "2026.01 - 2026.03",
       summary: "팀 단위로 진행한 웹 서비스 프로젝트입니다.",
