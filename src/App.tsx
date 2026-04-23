@@ -18,7 +18,7 @@ function App() {
           <h1>
             안녕하세요,
             <br />
-            프론트엔드 개발자 <span>최태성</span> 입니다.
+            웹 개발자 <span>최태성</span> 입니다.
           </h1>
         </div>
       </header>
