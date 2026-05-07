@@ -22,10 +22,19 @@ const ProfileSection = () => {
         <div className="Focus">
           <dt>Focus</dt>
           <dd>
-            <ul>
-              <li>백엔드에 중심을 두고, 프론트엔드와 함께 전체 흐름을 이해하는 풀스택 웹 개발 역량을 쌓고 있습니다.</li>
-              <li>배포와 운영 효율을 높이기 위한 CI/CD 자동화 방식에 관심을 두고 학습하고 있습니다.</li>
-              <li>개발 과정에서 AI를 더 정확하고 효과적으로 활용하는 방법을 꾸준히 실험하고 있습니다.</li>
+            <ul className="focus-list">
+              <li>
+                <strong>CI/CD 자동화</strong>
+                <span>반복되는 배포 과정을 줄이고 안정적으로 운영할 수 있는 흐름을 익히고 있습니다.</span>
+              </li>
+              <li>
+                <strong>AI 활용</strong>
+                <span>개발 과정에서 AI를 생산성을 높이는 도구로 활용하는 방법을 실험하고 있습니다.</span>
+              </li>
+              <li>
+                <strong>개발 사이클 이해</strong>
+                <span>백엔드 구현뿐 아니라 배포와 운영까지 포함한 전체 흐름을 함께 이해하는 데 집중하고 있습니다.</span>
+              </li>
             </ul>
           </dd>
         </div>

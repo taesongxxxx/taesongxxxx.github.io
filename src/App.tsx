@@ -8,6 +8,7 @@ function App() {
   return (
     <div className="portfolio-container">
       <HeaderSection />
+      <div className="section-divider" aria-hidden="true" />
       <div className="main-container">
         <ProfileSection />
         <ResumeSection />
