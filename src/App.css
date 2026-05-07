@@ -50,6 +50,14 @@
   color:  #0d9488;
 }
 
+.header-introduction {
+  margin: 18px 0 0;
+  font-size: 15px;
+  line-height: 1.8;
+  color: #555;
+  word-break: keep-all;
+}
+
 .main-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
