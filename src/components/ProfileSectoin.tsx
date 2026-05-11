@@ -13,9 +13,15 @@ const ProfileSection = () => {
         <div className="Education">
           <dt>Education</dt>
           <dd>
-            <ul>
-              <li>프로그래머스 웹 풀 사이클 개발 9기</li>
-              <li>인천대학교 정보통신공학과 졸업</li>
+            <ul className="education-list">
+              <li>
+                <span>프로그래머스 웹 풀 사이클 개발 9기</span>
+                <span className="education-period">2025.12.30 ~ 2026.06.19</span>
+              </li>
+              <li>
+                <span>인천대학교 정보통신공학과 졸업</span>
+                <span className="education-period">2020.03.02 ~ 2026.02.20</span>
+              </li>
             </ul>
           </dd>
         </div>

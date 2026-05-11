@@ -1,8 +1,8 @@
 const ResumeSection = () => {
   const certificates = [
-    "정보처리기사",
-    "데이터분석준전문가 (ADsP)",
-    "SQL 개발자 (SQLD)",
+    { name: "SQL 개발자 (SQLD)", date: "2025.12.12" },
+    { name: "데이터분석 준전문가 (ADsP)", date: "2025.11.28" },
+    { name: "정보처리기사", date: "2025.09.12" },
   ];
 
   const skillCategories = [
@@ -26,17 +26,15 @@ const ResumeSection = () => {
 
   return (
     <dl className="resume-container">
-      <div className="career">
-        <dt>CAREER</dt>
-        <dd>신입</dd>
-      </div>
-
       <div className="CERTIFICATES">
         <dt>CERTIFICATES</dt>
         <dd>
-          <ul>
-            {certificates.map((cert, index) => (
-              <li key={index}>{cert}</li>
+          <ul className="certificate-list">
+            {certificates.map((cert) => (
+              <li key={cert.name}>
+                <span>{cert.name}</span>
+                <span className="certificate-date">{cert.date}</span>
+              </li>
             ))}
           </ul>
         </dd>

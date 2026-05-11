@@ -105,6 +105,31 @@ dd {
   min-width: 0;
 }
 
+.education-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.education-list li {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  flex-wrap: wrap;
+  line-height: 1.5;
+}
+
+.education-list li > span:first-child {
+  font-size: 14px;
+  color: #111;
+}
+
+.education-period {
+  font-size: 12px;
+  color: #777;
+  letter-spacing: 0.01em;
+}
+
 .focus-list {
   display: flex;
   flex-direction: column;
@@ -168,6 +193,31 @@ dd {
 }
 
 /* Resume 섹션 */
+.certificate-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.certificate-list li {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  flex-wrap: wrap;
+  line-height: 1.5;
+}
+
+.certificate-list li > span:first-child {
+  font-size: 14px;
+  color: #111;
+}
+
+.certificate-date {
+  font-size: 12px;
+  color: #777;
+  letter-spacing: 0.01em;
+}
+
 .skill-category {
   margin-bottom: 16px;
 }
