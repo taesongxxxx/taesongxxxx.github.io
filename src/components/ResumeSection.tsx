@@ -16,7 +16,7 @@ const ResumeSection = () => {
     },
     {
       title: "Backend",
-      items: ["Node.js", "Express.js", "PostgreSQL"],
+      items: ["Node.js", "Express.js", "NestJS", "PostgreSQL"],
     },
     {
       title: "Tools",
